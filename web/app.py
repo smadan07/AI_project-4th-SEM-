@@ -439,7 +439,8 @@ if __name__ == '__main__':
     os.makedirs("templates", exist_ok=True)
     # Run the Flask app
     # Set debug=False for production environment
-    app.run(debug=True) # Listen on all interfaces if needed (e.g., for Docker)
+   app.run(host="0.0.0.0", port=5000, debug=False)
+ # Listen on all interfaces if needed (e.g., for Docker)
     # app.run(debug=True) # Default: localhost only
 
 # https://www.youtube.com/watch?v=yVTNge3sXpg&ab_channel=BeerBiceps
