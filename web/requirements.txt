@@ -1,2 +1,9 @@
+Flask
 gunicorn
-flask
+google-api-python-client
+scikit-learn
+numpy
+pandas
+emoji
+nltk
+plotly
